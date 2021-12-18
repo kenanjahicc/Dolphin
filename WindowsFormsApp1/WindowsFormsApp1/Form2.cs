@@ -29,13 +29,9 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            database21DataSet1.User.Where()
-            if (textBox1.Text != "" && textBox2.Text != "")
-            {
                 this.Hide();
                 Form6 f = new Form6();
                 f.ShowDialog();
-            }
         }
 
         private void button2_Click(object sender, EventArgs e)

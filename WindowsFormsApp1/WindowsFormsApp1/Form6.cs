@@ -16,5 +16,24 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 f = new Form4();
+            f.ShowDialog();
+        }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form7 f = new Form7();
+            f.ShowDialog();
+        }
     }
 }

@@ -10,6 +10,8 @@
 
 #pragma warning disable 1591
 
+using System;
+
 namespace WindowsFormsApp1 {
     
     
@@ -575,6 +577,11 @@ namespace WindowsFormsApp1 {
                 }
                 xs.Add(dsSchema);
                 return type;
+            }
+
+            internal void Where()
+            {
+                throw new NotImplementedException();
             }
         }
         
